@@ -1,0 +1,16 @@
+{
+    "name": "setup-local-redis",
+    "version": "1.0.0",
+    "description": "A simple script to set up a local Redis instance using Docker.",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1",
+        "mongoose": "^8.2.1",
+        "redis": "^5.12.1"
+    }
+}
