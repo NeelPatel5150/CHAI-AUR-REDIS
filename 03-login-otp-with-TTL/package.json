@@ -1,0 +1,15 @@
+{
+    "name": "03-login-otp-with-ttl",
+    "version": "1.0.0",
+    "description": "A simple Express server that generates and validates OTPs with a TTL using Redis.",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "node --watch src/index.js"
+    },
+    "author": "Neel Patel",
+    "devDependencies": {
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1"
+    }
+}
