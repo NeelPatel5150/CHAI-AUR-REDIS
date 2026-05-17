@@ -1,0 +1,16 @@
+{
+    "name": "07-live-admin-notification-pubsub",
+    "version": "1.0.0",
+    "description": "A simple Express server that simulates live admin notifications using Pub/Sub and Redis.",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "node --watch src/index.js"
+    },
+    "author": "Neel Patel",
+    "dependencies": {
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1"
+    }
+    
+}
