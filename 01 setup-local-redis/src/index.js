@@ -1,12 +1,11 @@
 import express from 'express';
-import  { createClient } from 'redis';
+import  Redis from 'ioredis';
 import mongoose from 'mongoose';
 
 const app = express();
 
-const redis = createClient({url: process.env.REDIS_URL || 'redis://localhost:6379'});
+const redis = new Redis(process.env.REDIS_URL || 'redis://localhost:6379');
 
-await redis.connect();
 
 app.get('/redis',async (req,res)=>{
     const reply = await redis.ping();

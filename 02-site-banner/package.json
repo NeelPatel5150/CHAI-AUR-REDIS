@@ -1,0 +1,15 @@
+{
+    "name": "02-site-banner",
+    "version": "1.0.0",
+    "description": "A simple web application that displays a banner on the homepage.",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "node --watch src/index.js"
+    },
+    "author": "Neel Patel",
+    "devDependencies": {
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1"
+    }
+}
